@@ -1,0 +1,370 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Nova Round', cursive;
+    }
+
+    .wrap {
+        background: rgba(0, 0, 0, 0.5) url(https://www.thehousedesigners.com/images/uploads/SiteImage-Landing-contemporary-house-plans-1.webp) no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        overflow: hidden;
+        background-blend-mode: overlay;
+    }
+
+    .wave {
+        position: absolute;
+        width: 100%;
+        bottom: -140px;
+        color: #fff;
+        opacity: 1;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 25px 80px;
+        background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.6));
+    }
+
+    header .logo {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+        float: left;
+    }
+
+    header .menu {
+        float: right;
+        margin-top: 5px;
+    }
+
+    header ul li {
+        display: inline-block;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+        margin: 0 25px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    .content {
+        max-width: 55%;
+        padding: 200px 80px 0;
+        color: #fff;
+    }
+
+    .content h1 {
+        font-size: 48px;
+    }
+
+    .content p {
+        font-size: 20px;
+        padding: 25px 0;
+        font-weight: 300;
+    }
+
+    .content .btn-group {
+        margin-top: 45px;
+    }
+
+    .content * {
+        display: inline-block;
+        padding: 15px 45px;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 50px;
+    }
+
+    .content a.color1 {
+        background-color: #ffc107;
+    }
+
+    .our-parterners {
+        padding: 0 80px;
+        position: relative;
+    }
+
+    .our-parterners h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .our-parterners hr {
+        border: none;
+        height: 4px;
+        width: 100px;
+        background-color: orange;
+    }
+
+    .our-parterners-inner {
+        margin-top: 50px;
+    }
+
+    .our-parterners-inner a {
+        display: inline-block;
+        width: 14%;
+        padding: 15px;
+        margin-right: 25px;
+        border: 1px solid #cacaca;
+        border-radius: 20px;
+        box-shadow: 0 5px 0 #cacaca;
+    }
+
+    .our-parterners-inner img {
+        width: 100%;
+        height: 150px;
+    }
+    .offer{
+        font-size: 10rem;
+        font-weight: 500;
+        background-image: url(https://i.pinimg.com/736x/08/a7/23/08a723cc83bd95e6e73f1ed85c610970.jpg);
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        margin-left: 300px;
+    }
+    .card {
+        width: 250px;
+        height: 254px;
+        background: rgb(103, 225, 255);
+        transition: all 0.4s;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+        font-size: 30px;
+        font-weight: 900;
+        float: left;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .card:hover {
+        border-radius: 15px;
+        cursor: pointer;
+        transform: scale(1.2);
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+        background: rgb(115, 154, 238);
+    }
+
+    .first-content {
+        background-image: url(https://i.pinimg.com/474x/ea/65/e0/ea65e0d2bfef17ca5f746b319c234b5d.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content {
+        height: 0px;
+        opacity: 0;
+    }
+    .first-content1 {
+        background-image: url(https://content.jdmagicbox.com/comp/kushinagar/r8/9999p5564.5564.200919062014.f8r8/catalogue/om-house-design-tamkuhi-kushinagar-207ig8nuqq.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content1 {
+        height: 0px;
+        opacity: 0;
+    } 
+    .first-content2 {
+        background-image: url(https://img.squareyards.com/secondaryPortal/638078418200748247-2812220430203020.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content2 {
+        height: 0px;
+        opacity: 0;
+    }
+    .first-content3 {
+        background-image: url(https://i.pinimg.com/736x/3c/39/c4/3c39c4dbfe4d54371374734b5fcb26b1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content3 {
+        height: 0px;
+        opacity: 0;
+    } 
+    .first-content4 {
+        background-image: url(https://i1.wp.com/i.pinimg.com/originals/52/ca/59/52ca59990f516e64df2840bccdbbe6e7.jpg?w=1140&is-pending-load=1#038;ssl=1);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content4 {
+        height: 0px;
+        opacity: 0;
+    } 
+    .second-content {
+        height: 0%;
+        width: 100%;
+        opacity: 0;
+        display: table;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        transition: all 0.4s;
+        font-size: 0px;
+        transform: rotate(80deg) scale(-1);
+    }
+
+    .card:hover .second-content {
+        opacity: 1;
+        height: 100%;
+        font-size: 30px;
+        transform: rotate(0deg);
+        margin-left: 15px;
+    }
+    .first-content5 {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwouX3qRyy-Lh2D6CdewGZK6hYFQSs2L5_RfgtOsR-syCIPoAtVm02zylgz8Bcdf7sdNQ&usqp=CAU);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content5 {
+        height: 0px;
+        opacity: 0;
+    }
+    .first-content6 {
+        background-image: url(https://i0.wp.com/i.pinimg.com/originals/81/ee/21/81ee21b52215481ae81312bf8686f184.jpg?resize=160,120);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content6 {
+        height: 0px;
+        opacity: 0;
+    }
+    .first-content7 {
+        background-image: url(https://i.pinimg.com/474x/ea/65/e0/ea65e0d2bfef17ca5f746b319c234b5d.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content7 {
+        height: 0px;
+        opacity: 0;
+    }
+    .first-content8 {
+        background-image: url(https://i.pinimg.com/474x/ea/65/e0/ea65e0d2bfef17ca5f746b319c234b5d.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content8 {
+        height: 0px;
+        opacity: 0;
+    }
+    .first-content9 {
+        background-image: url(https://i.pinimg.com/474x/ea/65/e0/ea65e0d2bfef17ca5f746b319c234b5d.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        border-radius: 15px;
+    }
+
+    .card:hover .first-content9 {
+        height: 0px;
+        opacity: 0;
+    }
